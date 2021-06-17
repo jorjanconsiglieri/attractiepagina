@@ -177,6 +177,24 @@ th{
     text-align: left;
 }
 
+.attractie-info{
+  padding: 10px;
+}
+
+.large .attractie-info, .fast-pass{
+  width: 50%;
+}
+
+.fast-pass{
+  background-color: white;
+}
+
+@media only screen and (max-width: 1200px){
+  .attracties{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
 
 
 
